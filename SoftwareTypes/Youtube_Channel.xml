@@ -1,0 +1,137 @@
+<SoftwareType>
+	<Name>Youtube Channel</Name>
+	<Category>Youtube Channel</Category>
+	<Description>Make a channel on youtube</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Youtube Channel">
+			<Description>A youtube channel</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>YoutubeChannelNG</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+            <Name>Channel Name</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Your youtube channel's name</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Channel Logo</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Your youtube channel's logo</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>2</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Channel Art</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Your youtube channel art</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Playlist</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Add playlists</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature>
+            <Name>Channel Custimisation</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Custimisation your youtube channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature>
+            <Name>Popular Uploads Banner</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Popular Uploads Banner for your channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Channel">Channel Custimisation</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Uploads Banner</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Uploads Banner for your channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Channel">Channel Custimisation</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Liked Videos Banner</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Liked videos banner for your channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Channel">Channel Custimisation</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Past Live Streams</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Upcomming Live Streams Banner for your channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Channel">Channel Custimisation</Dependency>
+            <Dependency Software="Youtube Video">Live Stream</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Popular Uploads Banner</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Popular Uploads Banner for your channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Channel">Channel Custimisation</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Live Stream Support</Name>
+            <Category>Youtube Channel</Category>
+            <Description>Make it so you can make livestream videos</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+    </Features>
+</SoftwareType>
