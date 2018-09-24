@@ -1,0 +1,126 @@
+<SoftwareType>
+	<Name>Microphone Cord</Name>
+	<Category>Microphone Cord</Category>
+	<Description>A microphone cord for your gaming setup</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Microphone Cord">
+			<Description>A microphone cord for your gaming setup.</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+            <NameGenerator>(GS)Microphone_CordNG</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+            <Name>Paper Lead Shell</Name>
+            <Category>Paper Work</Category>
+            <Description>A paper lead shell.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Paper Lead Shell" Vital="TRUE">
+            <Name>Cardboard Lead Shell</Name>
+            <Category>Cardboards</Category>
+            <Description>A cardboard lead shell.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cardboard Lead Shell" Vital="TRUE">
+            <Name>Plastic Lead Shell</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic lead shell.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="Plastic Lead Shell" Vital="TRUE">
+            <Name>Copper Lead Shell</Name>
+            <Category>Metal Word</Category>
+            <Description>A copper lead shell.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature From="Copper Lead Shell">
+            <Name>Silver Lead Shell</Name>
+            <Category>Metal Word</Category>
+            <Description>A silver lead shell.</Description>
+            <DevTime>5</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1995</Unlock>
+        </Feature>
+        <Feature From="Silver Lead Shell">
+            <Name>Iron Lead Shell</Name>
+            <Category>Metal Word</Category>
+            <Description>An iron lead shell.</Description>
+            <DevTime>6</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2000</Unlock>
+        </Feature>
+        <Feature From="Iron Lead Shell">
+            <Name>Silicone Rubber Lead Shell</Name>
+            <Category>Ruber Work</Category>
+            <Description>A silicone rubber lead shell.</Description>
+            <DevTime>7</DevTime>
+            <Innovation>4</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2005</Unlock>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Copper Wires</Name>
+            <Category>Metal Work</Category>
+            <Description>Copper wires in the filling.</Description>
+            <DevTime>7</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Copper Wires">
+            <Name>Silver Wires</Name>
+            <Category>Metal Work</Category>
+            <Description>silver wires in the filling.</Description>
+            <DevTime>7</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Silver Wires">
+            <Name>Iron Wires</Name>
+            <Category>Metal Work</Category>
+            <Description>Iron wires in the filling.</Description>
+            <DevTime>7</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+    </Features>
+</SoftwareType>

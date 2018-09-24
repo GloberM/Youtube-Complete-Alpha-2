@@ -1,0 +1,600 @@
+<SoftwareType>
+	<Name>Youtube Video</Name>
+	<Category>Youtube</Category>
+	<Description></Description>
+	<Random>0.3</Random>
+	<Categories>
+		<Category Name="Gaming">
+			<Description>A gaming video</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>(Video)Gaming_VideoNG</NameGenerator>
+		</Category>
+        <Category Name="Vlog">
+			<Description>A vlog</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>(Video)Vlog_VideoNG</NameGenerator>
+		</Category>
+        <Category Name="Cooking">
+			<Description>A coocking video</Description>
+			<Popularity>0.2</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>(Video)Cook_VideoNG</NameGenerator>
+		</Category>
+        <Category Name="DIY">
+			<Description>A Do-It-Yourself video</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+			<NameGenerator>(Video)DIY_VideoNG</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Features>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Recording</Name>
+            <Category>Recording</Category>
+            <Description>The recording section access point</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">0</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">0</SoftwareCategory>
+            <SoftwareCategory Category="DIY">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Audio</Name>
+            <Category>Audio</Category>
+            <Description>Audio for your video</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">0</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory><SoftwareCategory Category="Cooking">0</SoftwareCategory>
+            <SoftwareCategory Category="DIY">0</SoftwareCategory>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>240p Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+        </Feature>
+        <Feature From="240p Video" Vital="TRUE">
+            <Name>360p Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>3</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="360p Video" Vital="TRUE">
+            <Name>480p Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>4</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature From="480p Video" Vital="TRUE">
+            <Name>720p HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>5</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>4</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1995</Unlock>
+        </Feature>
+        <Feature From="720p HD Video">
+            <Name>1080p HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2000</Unlock>
+        </Feature>
+        <Feature From="1080p HD Video">
+            <Name>4k Ultra HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>8</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>6</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2005</Unlock>
+        </Feature>
+        <Feature From="4k Ultra HD Video">
+            <Name>6k Ultra HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>10</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>7</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2010</Unlock>
+        </Feature>
+        <Feature From="6k Ultra HD Video">
+            <Name>8k Ultra HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>10</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>7</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2015</Unlock>
+        </Feature>
+        <Feature From="8k Ultra HD Video">
+            <Name>16k Ultra HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>10</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>7</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2019</Unlock>
+        </Feature>
+        <Feature From="16k Ultra HD Video">
+            <Name>24k Ultra HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>10</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>7</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2021</Unlock>
+        </Feature>
+        <Feature From="24k Ultra HD Video">
+            <Name>32k Ultra HD Video</Name>
+            <Category>Video</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>10</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>7</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2023</Unlock>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>240p Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory>
+            <Dependency Software="Game">Text-based</Dependency>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+        </Feature>
+        <Feature From="240p Screen Recording">
+            <Name>360p Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">1985</SoftwareCategory>
+        </Feature>
+        <Feature From="360p Screen Recording">
+            <Name>480p Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>3</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">1990</SoftwareCategory>
+        </Feature>
+        <Feature From="480p Screen Recording">
+            <Name>720p HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>4</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">1995</SoftwareCategory>
+        </Feature>
+        <Feature From="720p HD Screen Recording">
+            <Name>1080p HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>5</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>4</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+        </Feature>
+        <Feature From="1080p HD Screen Recording">
+            <Name>4k Ultra HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2005</SoftwareCategory>
+        </Feature>
+        <Feature From="4k Ultra HD Screen Recording">
+            <Name>6k Ultra HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2010</SoftwareCategory>
+        </Feature>
+        <Feature From="6k Ultra HD Screen Recording">
+            <Name>8k Ultra HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2015</SoftwareCategory>
+        </Feature>
+        <Feature From="8k Ultra HD Screen Recording">
+            <Name>16k Ultra HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2019</SoftwareCategory>
+        </Feature>
+        <Feature From="16k Ultra HD Screen Recording">
+            <Name>24k Ultra HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2021</SoftwareCategory>
+        </Feature>
+        <Feature From="24k Ultra HD Screen Recording">
+            <Name>32k Ultra HD Screen Recording</Name>
+            <Category>Screen Record</Category>
+            <Description>Something to watch for your video</Description>
+            <DevTime>6</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>5</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2023</SoftwareCategory>
+        </Feature>
+         <Feature>
+            <Name>Facecam</Name>
+            <Category>Facecam</Category>
+            <Description>Your 'Beautiful' Face in your vid</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+        </Feature>
+        <Feature>
+            <Name>10 Minuites Plus Videos</Name>
+            <Category>Recording</Category>
+            <Description>Make it past that 10 minuite mark</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+        </Feature>
+        <Feature From="10 Minuites Plus Videos">
+            <Name>30 Minuite Plus Videos</Name>
+            <Category>Recording</Category>
+            <Description>Make the video over 30 minuites</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature>
+            <Name>Live Stream</Name>
+            <Category>Live Streaming</Category>
+            <Description>Make the video a livestream</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Channel">Live Stream Support</Dependency>
+            <Dependency Software="Youtube Video">Recording</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Editing</Name>
+            <Category>Editing</Category>
+            <Description>Unlock the editing section of the tree</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Intro</Name>
+            <Category>Editing</Category>
+            <Description>Add an intro to your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Outro</Name>
+            <Category>Editing</Category>
+            <Description>Add an outro to your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Music</Name>
+            <Category>Editing</Category>
+            <Description>Add music to your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Cuts</Name>
+            <Category>Editing</Category>
+            <Description>Add cuts to your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Effects</Name>
+            <Category>Editing</Category>
+            <Description>Unlock the effects section of editing</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Swirly Faces</Name>
+            <Category>Editing</Category>
+            <Description>Add swirly faces to your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Facecam Swirly faces</Name>
+            <Category>Editing</Category>
+            <Description>Unlock the effects section of editing</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <Dependency Software="Youtube Video">Facecam</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Expanded Facecam</Name>
+            <Category>Editing</Category>
+            <Description>Expand the face cam to have a close up of your face</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1996</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Editing</Dependency>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Uploading</Name>
+            <Category>Youtube</Category>
+            <Description>The uploading part of youtube</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">0</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">0</SoftwareCategory>
+            <SoftwareCategory Category="DIY">0</SoftwareCategory>
+            <Dependency Software="Youtube Channel">Channel Name</Dependency>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Upload the video</Name>
+            <Category>Youtube</Category>
+            <Description>Upload the video to your youtube channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">0</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">0</SoftwareCategory>
+            <SoftwareCategory Category="DIY">0</SoftwareCategory>
+            <Dependency Software="Youtube Video">Uploading</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Tumbnail</Name>
+            <Category>Youtube</Category>
+            <Description>Upload the video to your youtube channel</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">0</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">0</SoftwareCategory>
+            <SoftwareCategory Category="DIY">0</SoftwareCategory>
+            <Dependency Software="Youtube Video">Uploading</Dependency>
+        </Feature>
+        <Feature>
+            <Name>End Cards</Name>
+            <Category>Youtube</Category>
+            <Description>Add end cards to the end of your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">1990</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">1990</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">1990</SoftwareCategory>
+            <SoftwareCategory Category="DIY">1990</SoftwareCategory>
+            <Dependency Software="Youtube Video">Uploading</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Subscribeing Card</Name>
+            <Category>Youtube</Category>
+            <Description>Add a subscribing card to the end of your video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Vlog">0</SoftwareCategory>
+            <SoftwareCategory Category="Gaming">0</SoftwareCategory>
+            <SoftwareCategory Category="Cooking">0</SoftwareCategory>
+            <SoftwareCategory Category="DIY">0</SoftwareCategory>
+            <Dependency Software="Youtube Video">Uploading</Dependency>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Viewing Phase</Name>
+            <Category>Youtube</Category>
+            <Description>Unlocks the viewing phase of the video</Description>
+            <DevTime>1</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature>
+            <Name>Ads</Name>
+            <Category>Youtube</Category>
+            <Description>Be montitised</Description>
+            <DevTime>1</DevTime>
+            <Innovation>5</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Video">Viewing Phase</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Like/Dislike Counters</Name>
+            <Category>Youtube</Category>
+            <Description>Have likes/dilickes</Description>
+            <DevTime>1</DevTime>
+            <Innovation>5</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Youtube Video">Viewing Phase</Dependency>
+        </Feature>
+	</Features>
+</SoftwareType>

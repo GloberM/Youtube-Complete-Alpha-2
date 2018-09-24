@@ -1,0 +1,25 @@
+-start(base)
+Making
+Baking
+Boiling
+Frezzing
+Toasting
+Frying
+-base(end,stop)
+Popcorn
+Masala dosa
+Chips
+Paella
+Som tam
+Chicken rice
+Poutine
+Tacos
+-end(stop)
+with Popcorn
+with Masala dosa
+with Chips
+with Paella
+with Som tam
+with Chicken rice
+with Poutine
+with Tacos

@@ -1,0 +1,6 @@
+-start(base)
+Microphone
+-base(end,stop)
+Names
+-end(stop)
+Are hard to do lol 
