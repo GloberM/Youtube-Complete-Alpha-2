@@ -1,6 +1,0 @@
--start(base)
-Microphone
--base(end,stop)
-Cord
--end(stop)
-.
