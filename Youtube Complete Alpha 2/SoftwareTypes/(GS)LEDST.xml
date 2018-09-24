@@ -1,0 +1,138 @@
+<SoftwareType>
+	<Name>LED</Name>
+	<Category>LEDs</Category>
+	<Description>Some LEDs for your gaming setup</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Default">
+			<Description>An LED</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+            <NameGenerator>(GS)LEDNG</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+            <Name>Cheap Lead Frame</Name>
+            <Category>Electronics</Category>
+            <Description>A cheap lead frame.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cheap Lead Frame" Vital="TRUE">
+            <Name>Lead Frame</Name>
+            <Category>Electronics</Category>
+            <Description>A lead frame.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>3</Usability>
+            <Stability>2</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="Lead Frame">
+            <Name>Expensive Lead Frame</Name>
+            <Category>Electronics</Category>
+            <Description>An expensive lead frame.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Cardboard Bonding Wire</Name>
+            <Category>Cardboard Work</Category>
+            <Description>A cardboard bonding wire.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cardboard Bonding Wire">
+            <Name>Plastic Bonding Wire</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic bonding wire.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="Plastic Bonding Wire">
+            <Name>Aluminum Bonding Wire</Name>
+            <Category>Metal Work</Category>
+            <Description>A aluminum bonding wire.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature From="Aluminum Bonding Wire">
+            <Name>Copper Bonding Wire</Name>
+            <Category>Metal Work</Category>
+            <Description>A copper bonding wire.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1995</Unlock>
+        </Feature>
+        <Feature From="Copper Bonding Wire">
+            <Name>Iron Bonding Wire</Name>
+            <Category>Metal Work</Category>
+            <Description>A iron bonding wire.</Description>
+            <DevTime>6</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2000</Unlock>
+        </Feature>
+        <Feature From="Iron Bonding Wire">
+            <Name>Steel Bonding Wire</Name>
+            <Category>Metal Work</Category>
+            <Description>A steel bonding wire.</Description>
+            <DevTime>5</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>2</Usability>
+            <Stability>2</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>2000</Unlock>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>LED Element</Name>
+            <Category>Electronics</Category>
+            <Description>The lead frame.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Encapsulating resin</Name>
+            <Category>Electronics</Category>
+            <Description>The lead frame.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+    </Features>
+</SoftwareType>

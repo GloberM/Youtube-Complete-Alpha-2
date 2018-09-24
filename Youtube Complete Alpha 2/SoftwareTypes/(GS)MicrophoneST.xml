@@ -1,0 +1,131 @@
+<SoftwareType>
+	<Name>Microphone</Name>
+	<Category>Microphone</Category>
+	<Description>A microphone for your gaming setup</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Default">
+			<Description>A microphone</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+            <NameGenerator>(GS)MicrophoneNG</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+            <Name>Paper Widescreen</Name>
+            <Category>Paper Work</Category>
+            <Description>A paper widescreen.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Paper Widescreen" Vital="TRUE">
+            <Name>Cardboard Widescreen</Name>
+            <Category>Cardboards</Category>
+            <Description>A cardboard widescreen.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cardboard Widescreen">
+            <Name>Plastic Widescreen</Name>
+            <Category>Plastics</Category>
+            <Description>A plastics widescreen.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Plastic Widescreen">
+            <Name>Metal Widescreen</Name>
+            <Category>Metal work</Category>
+            <Description>A metal widescreen.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Diaphragm</Name>
+            <Category>Electronics</Category>
+            <Description>A diaphragm in the microphone.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+         <Feature Forced="TRUE">
+            <Name>Moving Coil</Name>
+            <Category>Electronics</Category>
+            <Description>A moving coil in your microphone.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+         <Feature Forced="TRUE">
+            <Name>On-Off Switch</Name>
+            <Category>Electronics</Category>
+            <Description>A On-Off switch.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Paper Housing</Name>
+            <Category>Paper work</Category>
+            <Description>A paper housing.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Paper Housing">
+            <Name>Cardboard Housing</Name>
+            <Category>Cardboards</Category>
+            <Description>A cardboard housing.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cardboard Housing">
+            <Name>Plastic Housing</Name>
+            <Category>Plasticts</Category>
+            <Description>A plastic housing.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Plastic Housing">
+            <Name>Metal Housing</Name>
+            <Category>Metal Work</Category>
+            <Description>A metal housing.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+    </Features>
+</SoftwareType>

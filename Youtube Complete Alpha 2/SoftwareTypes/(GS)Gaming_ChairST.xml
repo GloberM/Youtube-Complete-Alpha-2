@@ -1,0 +1,298 @@
+<SoftwareType>
+	<Name>Gaming Chair</Name>
+	<Category>Gaming Setup</Category>
+	<Description>A gaming chair for your gaming setup</Description>
+	<Random>0.1</Random>
+	<Categories>
+		<Category Name="Stationary Gaming Chair">
+			<Description></Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+            <NameGenerator>(GS)Gaming_Chair[Global]NG</NameGenerator>
+		</Category>
+        <Category Name="Rocking Gaming Chair">
+			<Description></Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+            <NameGenerator>(GS)Gaming_Chair[Global]NG</NameGenerator>
+		</Category>
+        <Category Name="Wheele Gaming Chair">
+			<Description></Description>
+			<Popularity>0.7</Popularity>
+			<Retention>1</Retention>
+			<TimeScale>0.25</TimeScale>
+			<Iterative>0.75</Iterative>
+            <NameGenerator>(GS)Gaming_Chair[Global]NG</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE" Vital="TRUE">
+            <Name>Square Plastic Base</Name>
+            <Category>Plastics</Category>
+            <Description>A square plastic base for your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Stationary Gaming Chair">0</SoftwareCategory>
+        </Feature>
+        <Feature From="Square Plastic Base">
+            <Name>Square Metal Base</Name>
+            <Category>Metal Work</Category>
+            <Description>A square metal base for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Stationary Gaming Chair">1990</SoftwareCategory>
+        </Feature>
+        <Feature From="Square Metal Base">
+            <Name>Square Metal Base With Cloth</Name>
+            <Category>Plastics</Category>
+            <Description>A square plastic base covered in  for your gaming chair.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Stationary Gaming Chair">1995</SoftwareCategory>
+        </Feature>
+        <Feature From="Square Metal Base With Cloth">
+            <Name>Square Metal Base With Memory Foam And Cloth</Name>
+            <Category>Metak Work</Category>
+            <Description>A round metal base covered in memory foam then wraped in a cloth type material for your rocking gaming chair.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Stationary Gaming Chair">2000</SoftwareCategory>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Round Plastic Base</Name>
+            <Category>Plastics</Category>
+            <Description>A round plastic base that lets you rock on your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Rocking Gaming Chair">0</SoftwareCategory>
+        </Feature>
+        <Feature From="Round Plastic Base">
+            <Name>Round Metal Base</Name>
+            <Category>Plastics</Category>
+            <Description>A round plastic base covered in for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Rocking Gaming Chair">1990</SoftwareCategory>
+        </Feature>
+        <Feature From="Round Metal Base">
+            <Name>Round Metal Base With Cloth</Name>
+            <Category>Plastics</Category>
+            <Description>A round plastic base covered in for your gaming chair.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Rocking Gaming Chair">1995</SoftwareCategory>
+        </Feature>
+        <Feature From="Round Metal Base With Cloth">
+            <Name>Round Metal Base With Memory Foam And Cloth</Name>
+            <Category>Metak Work</Category>
+            <Description>A round metal base covered in memory foam then wraped in a cloth type material for your gaming chair.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Rocking Gaming Chair">2000</SoftwareCategory>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Spining Plastic Base</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic base that spins for your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Wheele Gaming Chair">0</SoftwareCategory>
+        </Feature>
+        <Feature From="Spining Plastic Base" Vital="TRUE">
+            <Name>Spining Metal Base</Name>
+            <Category>Plastics</Category>
+            <Description>A metal base that spins for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Wheele Gaming Chair">1990</SoftwareCategory>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Plastic Support Pole</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic support pole for your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Wheele Gaming Chair">0</SoftwareCategory>
+        </Feature>
+        <Feature From="Plastic Support Pole">
+            <Name>Ajustable Plastic Support Pole</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic support pole for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Wheele Gaming Chair">1990</SoftwareCategory>
+        </Feature>
+        <Feature From="Ajustable Plastic Support Pole">
+            <Name>Metal Support Pole</Name>
+            <Category>Metal Work</Category>
+            <Description>A metal pole for your gaming chair.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Wheele Gaming Chair">1995</SoftwareCategory>
+        </Feature>
+        <Feature From="Metal Support Pole">
+            <Name>Ajustable Metal Support Pole</Name>
+            <Category>Metal Work</Category>
+            <Description>An ajustable metal pole for your gaming chair.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Wheele Gaming Chair">1995</SoftwareCategory>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Cardboard Frame</Name>
+            <Category>Cardboard Work</Category>
+            <Description>A carboard frame for your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cardboard Frame" Vital="TRUE">
+            <Name>Plastic Frame</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic frame for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="Plastic Frame">
+            <Name>Metal Frame</Name>
+            <Category>Metal Work</Category>
+            <Description>A metal frame for your gaming chair.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>No Filling</Name>
+            <Category>Carboard Work</Category>
+            <Description>No filling just air in your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="No Filling" Vital="TRUE">
+            <Name>Plastic Filling</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic filling for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="Plastic Filling">
+            <Name>Metal Filling</Name>
+            <Category>Metal Work</Category>
+            <Description>A metal filling for your gaming chair.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature Forced="TRUE" Vital="TRUE">
+            <Name>Cardboard Skin</Name>
+            <Category>Cardboard Work</Category>
+            <Description>A carboard skin for your gaming chair.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="Cardboard Skin" Vital="TRUE">
+            <Name>Plastic Skin</Name>
+            <Category>Plastics</Category>
+            <Description>A plastic skin for your gaming chair.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1985</Unlock>
+        </Feature>
+        <Feature From="Plastic Skin">
+            <Name>Fabric Skin</Name>
+            <Category>Fabrics</Category>
+            <Description>A fabric skin for your gaming chair.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1990</Unlock>
+        </Feature>
+        <Feature From="Fabric Skin">
+            <Name>Memory Foam Skin Covered In A Fabric Skin</Name>
+            <Category>Fabrics</Category>
+            <Description>A fabric skin covered in a fabric skin for your gaming chair.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Unlock>1995</Unlock>
+        </Feature>
+    </Features>
+</SoftwareType>
